@@ -1,0 +1,10 @@
+# py
+*__pycache__/
+*.pytest_cache
+*venv/
+
+# ide
+.vscode/
+
+# db
+*clientes.db
