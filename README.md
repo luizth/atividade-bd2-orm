@@ -21,9 +21,9 @@ Pedido 1 - N ItensPedido
 - model: contém o modelo e as classes do app
 
 - orm: contém a configuração do ORM, a definição das tabelas e o mapeamento do modelo com o ORM.
-
-Foi utilizado o Mapeamento Clássico do SQLAlchemy pois ele permite que façamos uma inversão de dependências. O nosso modelo está separado e não depende do ORM, e sim ao contrário (ORM depende do modelo). Dessa forma, se precisarmos trocar o software de ORM, nosso modelo fica intacto.
 ```
+Foi utilizado o Mapeamento Clássico do SQLAlchemy pois ele permite que façamos uma inversão de dependências. O nosso modelo está separado e não depende do ORM, e sim ao contrário (ORM depende do modelo). Dessa forma, se precisarmos trocar o software de ORM, nosso modelo fica intacto.
+
 
 ---
 ### Instalando as dependências
